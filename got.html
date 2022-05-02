@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym On Trend</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <!--Font awsome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+    <body>
+        <section>
+            <header>
+               <!--<a href="#" class="logo"></a>--><img src="img/g1.png" alt="logo" class="logo">
+                <div class="toggleMenu" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li class="li14"><a href="#">Home</a></li>
+                    <li class="li14"><a href="#">About</a></li>
+                    <!--Drop down menu-->
+
+                    <li class="li14"><a href="#">Gym</a>
+                      <ul class="navigation21">
+                        <li class="li21"><a href="">Ganeshguri</a></li>
+                        <li class="li21"><a href="">Six Mile</a></li>
+                        <li class="li21"><a href="">Hengrabari</a></li>
+                      </ul>
+                    </li>
+
+                    <!--Drop down menu ends here-->
+                   <li class="li14"><a href="#">Blog</a></li>
+                   <li class="li14"><a href="#">Contacts</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="contentBx">
+                    <h2>Gym On Trend<br></h2>
+                    <h3><span class="f1">The future</span> of fitness</h3>
+                    <p></p>
+                         <!--<a href="#">Get Started</a>-->
+                </div>
+            </div>
+        </section>
+
+    
+         <!--New form design code
+  <section class="section12" id="#home12">   
+
+    <div class="container8">
+       <h2>Lets get you a perfect gym</h2>
+         <form action="#" method="post">
+         <div class="raw100">
+             <div class="col">
+                 <div class="inputBox">
+                     <input type="text" name="firstname" required="required">
+                     <span class="text">Name</span>
+                     <span class="line"></span>
+                 </div>
+             </div>
+
+             <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="birthdate" required="required">
+                    <span class="text">Birth Day</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+
+         </div>
+
+         <div class="raw100">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="city" required="required">
+                    <span class="text">City</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="col">
+               <div class="inputBox">
+                   <input type="number" name="body" required="required">
+                   <span class="text">Your body goals in Kg</span>
+                   <span class="line"></span>
+               </div>
+           </div>
+
+
+        </div>
+
+        <div class="raw100">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="mobilenumber" required="required">
+                    <span class="text">Mobile Number</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="col">
+               <div class="inputBox">
+                   <input type="number" name="height" required="required">
+                   <span class="text">Your height in cm</span>
+                   <span class="line"></span>
+               </div>
+           </div>
+
+
+        </div>
+        <div class="raw100">
+            <div class="col">
+                    <span class="text">Your preferred gym location</span><br><br>
+                    <select name="plan" id="plan">
+        <option value="choose">Choose your location</option>
+        <option value="beltola" selected>Beltola </option>
+        <option value="survey">Survey</option>
+        <option value="wireless">Wireless</option>
+    </select>
+            </div>
+
+            <div class="col">
+                    <span class="text">Your optional gym location</span><br><br>
+                    <select name="plan" id="plan">
+        <option value="choose">Choose your location</option>
+        <option value="beltola" selected>Beltola </option>
+        <option value="survey">Survey</option>
+        <option value="wireless">Wireless</option>
+    </select>
+            </div>
+
+
+        </div>
+        <div class="raw100">
+            <div class="col">
+                    <span class="text">Your daily activity level</span><br><br>
+                    <select name="plan" id="plan">
+        <option value="choose">Choose your activity</option>
+        <option value="Low" selected>Low</option>
+        <option value="Moderate">Moderate</option>
+        <option value="High">High</option>
+    </select>
+            </div>
+
+            <div class="col">
+                    <span class="text">Your preferred timings</span><br><br>
+                    <select name="plan" id="plan">
+        <option value="choose">Choose your timings</option>
+        <option value="Morning" selected>Morning </option>
+        <option value="Evening">Evening</option>
+    </select>
+            </div>
+
+
+        </div>
+
+            <div class="raw100">
+            <div class="col budget">
+                <span class="text">Budget</span><br><br>
+               <div>
+        <span id="rangeValue">0</span>
+        <Input class="range" type="range" name "" value="1500" min="1500" max="10000" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+    </div>
+        </div>
+</div>
+
+        <div class="raw100">
+
+            <div class="col">
+                <input type="submit" value="Submit">
+            </div> 
+
+        </div>
+    </form>
+    </div>
+    heading end div
+
+    </section>-->
+
+
+    <section class="section12">   
+
+        <div class="container8">
+           <h2>Lets get you a perfect gym</h2>
+             <form action="#">
+             <div class="raw100">
+                 <div class="col">
+                     <div class="inputBox">
+                         <input type="text" name="firstname">
+                         <span class="text">Name</span>
+                         <span class="line"></span>
+                     </div>
+                 </div>
+    
+                 <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="birthdate">
+                        <span class="text">Birth Day</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="mobilenumber">
+                        <span class="text">Mobile Number</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+    
+             </div>
+    
+            <div class="raw100">
+    
+               <div class="col">
+                        <span class="text">Your preferred gym location</span><br><br>
+                        <select name="plan" id="plan">
+            <option value="choose">Choose your location</option>
+            <option value="beltola" selected>Beltola </option>
+            <option value="survey">Survey</option>
+            <option value="wireless">Wireless</option>
+             </select>
+                </div>
+    
+                
+                    <div class="col">
+                        <span class="text">Your daily activity level</span><br><br>
+                        <select name="plan" id="plan">
+            <option value="choose">Choose your activity</option>
+            <option value="Low" selected>Low</option>
+            <option value="Moderate">Moderate</option>
+            <option value="High">High</option>
+                </select>
+                </div>
+    
+                <div class="col">
+                        <span class="text">Your preferred timings</span><br><br>
+                        <select name="plan" id="plan">
+            <option value="choose">Choose your timings</option>
+            <option value="Morning" selected>Morning </option>
+            <option value="Evening">Evening</option>
+                </select>
+                </div>
+    
+            </div>
+        
+    
+                <div class="raw100">
+                <div class="col budget">
+                    <span class="text">Budget</span>
+                   <div>
+            <span id="rangeValue">0</span>
+            <Input class="range" type="range" name "" value="1500" min="1500" max="10000" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+                        </div>
+                    </div>
+                </div>
+            <button class="accordion" align="center">Submit</button>
+                        <div class="panel">
+                            <div class="container1"><br>
+                <h3 class="match1">We have the following match for you</h3>
+            <table class="rwd-table">
+                <tbody>
+                    <tr>
+            <th>Gyms</th>
+            <th>Match percentage</th>
+            <th>Information</th>
+          </tr>
+          <tr>
+            <td data-th="Gyms">
+              Iron fitness Gym
+            </td>
+            <td data-th="Match percentage" class="match">
+              98% match
+            </td>
+            <td data-th="Information">
+              <button class="button">Know More</button>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="Gyms">
+             Fitness World
+            </td>
+            <td data-th="Match Percentage">
+              82% match
+            </td>
+            <td data-th="Information">
+              <button class="button">Know More</button>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="Gyms">
+              JK Barbell power
+            </td>
+            <td data-th="Match Percentage">
+              80% match
+            </td>
+            <td data-th="Information">
+              <button class="button">Know More</button>
+            </td>
+          </tr>
+          <tr>
+            <td data-th="Gyms">
+              Pain Sculpture Gym
+            </td>
+            <td data-th="Match Percentage">
+              75% match
+            </td>
+            <td data-th="Information">
+              <button class="button">Know More</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>
+    </div>
+                
+    
+        </form>
+        </div><!--heading end div-->
+    
+        </section>
+
+
+
+
+
+
+
+
+
+
+    <!--==============================About Section==========================-->
+
+ 
+    <div class="section13">
+        <div class="container13">
+            <div class="content-section13">
+                <div class="title13">
+                    <h1 class="a13">About Us</h1>
+                </div>
+                <div class="content13">
+                      <p>Gym has merged into passion and daily lifestyle of people now-a-days.
+                        People today want to be fit at any cost, because fitness not only makes you muscular 
+                        but also it vitalizes your mind, improves concentration in work, make you look confident, 
+                        increases immunity and what not!As gym has become a trend in 21 <sup>st</sup>century, so
+                        people are now tapping into the gymnasium business. Everyone is having the same concepts and 
+                        everyone is having sameunisex gym filled with high end machines and equipments.</p>
+               </div>
+            </div>
+            <div class="image-section13">
+                <img src="img/gym1.png">
+            </div>
+        </div>
+    </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <!-- <section class="about1">
+
+   <div class="content1">
+    <img src="img/gym1.png">
+    <div class="text1">
+        <h1>About Us</h1>
+      <h5>Provide best services</h5>
+      <p>Gym has merged into passion and daily lifestyle of people now-a-days.
+        People today want to be fit at any cost, because fitness not only makes you muscular 
+        but also it vitalizes your mind, improves concentration in work, make you look confident, 
+        increases immunity and what not!As gym has become a trend in 21 <sup>st</sup>century, so
+        people are now tapping into the gymnasium business. Everyone is having the same concepts and 
+        everyone is having sameunisex gym filled with high end machines and equipments.</p>
+        <button type="button">More</button>
+    </div>
+   </div>
+
+  </section>
+
+  
+   =============================About Section End========================-->
+  
+    <!---=======================our Services Form=============================-->
+    
+    
+   <!--<div><h1 class="b1">Our Benefits</h1></div> 
+
+    <section class="index12">
+        <div class="container2">
+         <div class="box2">
+             <div class="icon">GOT</div>
+             <div class="content2">
+                 <h3>Benefits for the registered gym</h3>
+                 <p>1) Verified leads at zero cost. <br>2) Strong digital presence.<br>
+               3) Active social media platforms.<br>4) Engaging content marketing.<br> 
+                 5) Exciting reviews and recommendations.<br>6) Digital artical publishing.<br>
+               7) Well performing dynamic website.</p>
+                 <a href="#" class="a1">Read More</a>
+             </div>
+         </div>-->
+         <!--<div class="box2">
+             <div class="icon">02</div>
+             <div class="content2">
+                 <h3>Brand Name</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda a iste 
+                 voluptatem, explicabo laboriosam voluptas modi sit debitis fugiat? Natus 
+                 cupiditate facere provident officia ex blanditiis doloribus, deleniti recusandae
+                 incidunt!</p>
+                 <a href="#" class="a1">Read More</a>
+             </div>
+         </div>
+         <div class="box2">
+             <div class="icon">03</div>
+             <div class="content2">
+                 <h3>Brand Name</h3>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda a iste 
+                 voluptatem, explicabo laboriosam voluptas modi sit debitis fugiat? Natus 
+                 cupiditate facere provident officia ex blanditiis doloribus, deleniti recusandae
+                 incidunt!</p>
+                 <a href="#" class="a1">Read More</a>
+             </div>
+         </div>
+     </div>
+     
+     </section>-->
+
+   <!--Benifits in new ways-->
+
+     <section class="s15">
+      <div class="container15">
+        <h2 class="head15">Our Gym Trend Benefits</h2>
+        <ul class="ul15">
+          <li class="li15"><p class="p15">Verified leads at zero cost.</p></li>
+          <li class="li15"><p class="p15">Strong digital presence.</p></li>
+          <li class="li15"><p class="p15">Active social media platforms.</p></li>
+          <li class="li15"><p class="p15">Engaging content marketing.</p></li>
+          <li class="li15"><p class="p15">Exciting reviews and recommendations.</p></li>
+          <li class="li15"><p class="p15">Digital artical publishing.</p></li>
+          <li class="li15"><p class="p15">Well performing dynamic website.</p></li>
+        </ul>
+      </div>
+    </section>
+
+
+
+
+   <!--Benifits new way end here-->
+
+
+
+
+
+
+     
+     
+     <!--========================end of services form============================-->
+ <!--======================Fitness Revolution=================-->
+ <div class="section3">
+    <div class="container3">
+        <div class="content-section3">
+            <div class="title3">
+                <h1 class="a3">Northeast get ready for</h1>
+            </div>
+            <div class="content3">
+                <h3><span class="sa1">The fitness </span><br>Revolution</h3>
+           </div>
+            <div class="social">
+                <a href="" class="a12"><i class="fas fa-history"></i>24X7 Gym Booking</a>
+                <a href=""class="a12"><i class="far fa-hand-paper"></i>Hassle free</a>
+                <a href=""class="a12"><i class="fas fa-walking"></i>Digital Walkthrough</a>
+            </div>
+            <button type="button">Download now</button>
+        </div>
+        <div class="image-section3">
+            <img src="img/m1.png">
+        </div>
+    </div>
+</div>
+ <!--===================Fitness Revolution End=================-->
+
+
+<!-- =======================================Start Footer============================= -->
+
+  <footer>
+    <div class="container15">
+        <div class="sec aboutus">
+            <h2>About Us</h2>
+            <p>We are Urbanmarq- Intelligence merged with Human Connection.
+               We focus on 360-degree Marketing solutions encompassing Business Consultations, 
+               Digital Marketing, Media planning & buying, Software & App developments, Designing, 
+               AI-based services, PR Communication, Traditional Branding and Many more.
+               We specialize in creating human experiences for the future.</p>
+             <ul class="sci1">
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="sec quickLinks">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Trainers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="sec contact">
+            <h2>Contact Info</h2>
+            <ul class="info">
+               <li>
+                   <span><i class="fas fa-map-marker-alt"></i></span>
+                   <span>Urbanmarq Technologies Private Limited<br>
+                    Guwahati, Assam </span>
+               </li>
+               <li>
+                <span><i class="fas fa-phone-alt"></i></span>
+                <p><a href="tel:+91 9395109810">+91 9395109810</a><br>
+                   <a href="tel:+91 7099030211">+91 +91 7099030211</a><br></p>
+            </li>
+            <li>
+                <span><i class="fas fa-envelope-square"></i></span>
+               <p><a href="mailto:Hi@urbanmarq.com">Hi@urbanmarq.com</a></p>
+            </li>
+            </ul>
+        </div>
+        </div>
+  </footer>
+  <div class="copyrightText">
+      <p>Copyright &copy; Urbanmarq Technologies All Rights Reserved.</p>
+  </div>
+
+
+<!--===========================footer ends here============================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        function rangeSlide(value) {
+            document.getElementById('rangeValue').innerHTML = value;
+        }
+    </script>
+        <script type="text/javascript">
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('.toggleMenu');
+                const navigation = document.querySelector('.navigation');
+                toggleMenu.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        
+            var rightJS = {
+  init: function(){
+    rightJS.Tags = document.querySelectorAll('.rightJS');
+    for(var i = 0; i < rightJS.Tags.length; i++){
+      rightJS.Tags[i].style.overflow = 'hidden';
+    }
+    rightJS.Tags = document.querySelectorAll('.rightJS div');
+    for(var i = 0; i < rightJS.Tags.length; i++){
+      rightJS.Tags[i].style.position = 'relative';
+      rightJS.Tags[i].style.right = '-'+rightJS.Tags[i].parentElement.offsetWidth+'px';
+    }
+    rightJS.loop();
+  },
+  loop: function(){
+    for(var i = 0; i < rightJS.Tags.length; i++){
+      var x = parseFloat(rightJS.Tags[i].style.right);
+      x ++;
+      var W = rightJS.Tags[i].parentElement.offsetWidth;
+      var w = rightJS.Tags[i].offsetWidth;
+      if((x/100) * W  > w) x = -W;
+      if (rightJS.Tags[i].parentElement.parentElement.querySelector(':hover') !== rightJS.Tags[i].parentElement) rightJS.Tags[i].style.right = x + 'px';
+    } 
+    requestAnimationFrame(this.loop.bind(this));
+  }
+};
+window.addEventListener('load',rightJS.init);
+
+/* JQUERY */
+
+$(function(){
+  var rightJQ = {
+    init: function(){
+      $('.rightJQ').css({
+        overflow: 'hidden'
+      });
+      $('.rightJQ').on('mouseover',function(){
+        $('div', this).stop();
+      });
+      $('.rightJQ').on('mouseout',function(){
+        $('div', this).animate({
+          right: '100%'
+        }, 16000, 'linear' );
+      });
+      rightJQ.loop();
+    },
+    loop: function(){
+      $('.rightJQ div').css({
+        position: 'relative',
+        right: '-100%'
+      }).animate({
+        right: '100%'
+      }, 16000, 'linear', rightJQ.loop);
+    }
+  };
+  rightJQ.init();
+});
+
+
+
+
+        </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+/* Toggle between adding and removing the "active" class,
+to highlight the button that controls the panel */
+this.classList.toggle("active");
+
+/* Toggle between hiding and showing the active panel */
+var panel = this.nextElementSibling;
+if (panel.style.display === "block") {
+  panel.style.display = "none";
+} else {
+  panel.style.display = "block";
+}
+});
+}
+</script>
+
+    </body>
+    
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym On Trend</title>
+    <link rel="stylesheet" href="form.css"> <!--========form design==========-->
+    <body>
+              <div class="popup" id="popup-1">
+                  <div class="content5">
+                      <div class="close-btn" onclick="togglePopup()">X</div>
+                      <h1>Lets get you a perfect gym</h1>
+
+                     <div class="input-field">
+                          <input placeholder="Name" class="validate">
+                      </div>
+                      <div class="input-field">
+                        <input placeholder="Birthday" class="validate">
+                    </div>
+                    <button class="second-button">Submit</button>
+                  </div>
+                
+              </div>
+              <!--=========================1st button=========================-->
+              <button onclick="togglePopup()" class="first-button">Form here</button>
+
+              <script>
+                  //active popUp
+                  function togglePopup(){
+                      document.getElementById("popup-1").classList.toggle("active")
+                  }
+              </script>
+    </body>
+</html>
